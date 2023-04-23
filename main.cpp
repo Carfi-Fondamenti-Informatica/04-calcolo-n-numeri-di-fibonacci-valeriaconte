@@ -9,14 +9,15 @@ int main() {
         cout << "errore\n";
     }
     else {
-
     int c=0;
-            while (c<n){
+        cout << a << endl;
+        cout << b << endl;
+            while (c<(n-2)){
                 c++;
                 f=a+b;
                 cout << f << endl;
-                b=a;
-                a=f;
+                a=b;
+                b=f;
             }
 }
     return 0;
